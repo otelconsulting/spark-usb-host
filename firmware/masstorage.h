@@ -23,7 +23,7 @@ e-mail   :  support@circuitsathome.com
 #define MS_WANT_PARSER 0
 #endif
 
-#include "Usb.h"
+#include "spark-usb-host.h"
 
 #define bmREQ_MASSOUT       USB_SETUP_HOST_TO_DEVICE|USB_SETUP_TYPE_CLASS|USB_SETUP_RECIPIENT_INTERFACE
 #define bmREQ_MASSIN        USB_SETUP_DEVICE_TO_HOST|USB_SETUP_TYPE_CLASS|USB_SETUP_RECIPIENT_INTERFACE

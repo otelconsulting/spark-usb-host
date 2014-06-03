@@ -20,7 +20,7 @@
 #ifndef _xboxrecv_h_
 #define _xboxrecv_h_
 
-#include "Usb.h"
+#include "spark-usb-host.h"
 #include "xboxEnums.h"
 
 /* Data Xbox 360 taken from descriptors */

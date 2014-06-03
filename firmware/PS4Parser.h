@@ -18,7 +18,7 @@
 #ifndef _ps4parser_h_
 #define _ps4parser_h_
 
-#include "Usb.h"
+#include "spark-usb-host.h"
 #include "controllerEnums.h"
 
 /** Buttons on the controller */
@@ -391,7 +391,7 @@ protected:
         };
 
         /**
-         * Send the output to the PS4 controller. This is implemented in PS4BT.h and PS4USB.h.
+         * Send the output to the PS4 controller. This is implemented in PS4BT.h and PS4spark-usb-host.h.
          * @param output Pointer to PS4Output buffer;
          */
         virtual void sendOutputReport(PS4Output *output) = 0;

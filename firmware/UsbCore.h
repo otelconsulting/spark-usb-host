@@ -16,7 +16,7 @@ e-mail   :  support@circuitsathome.com
  */
 
 #if !defined(_usb_h_) || defined(USBCORE_H)
-#error "Never include UsbCore.h directly; include Usb.h instead"
+#error "Never include UsbCore.h directly; include spark-usb-host.h instead"
 #else
 #define	USBCORE_H
 

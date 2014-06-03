@@ -20,7 +20,7 @@ e-mail   :  support@circuitsathome.com
 #if !defined(_ADK_H_)
 #define _ADK_H_
 
-#include "Usb.h"
+#include "spark-usb-host.h"
 
 #define ADK_VID   0x18D1
 #define ADK_PID   0x2D00

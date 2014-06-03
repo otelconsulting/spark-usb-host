@@ -17,7 +17,7 @@ e-mail   :  support@circuitsathome.com
 #if !defined(__CDCFTDI_H__)
 #define __CDCFTDI_H__
 
-#include "Usb.h"
+#include "spark-usb-host.h"
 
 #define bmREQ_FTDI_OUT  0x40
 #define bmREQ_FTDI_IN   0xc0

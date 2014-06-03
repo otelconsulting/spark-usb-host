@@ -15,7 +15,7 @@
  e-mail   :  kristianl@tkjelectronics.com
  */
 
-#include "XBOXUSB.h"
+#include "XBOXspark-usb-host.h"
 // To enable serial debugging see "settings.h"
 //#define EXTRADEBUG // Uncomment to get even more debugging data
 //#define PRINTREPORT // Uncomment to print the report send by the Xbox 360 Controller

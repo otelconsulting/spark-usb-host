@@ -16,7 +16,7 @@ e-mail   :  support@circuitsathome.com
  */
 
 #if !defined(_usb_h_) || defined(_ch9_h_)
-#error "Never include usb_ch9.h directly; include Usb.h instead"
+#error "Never include usb_ch9.h directly; include spark-usb-host.h instead"
 #else
 
 /* USB chapter 9 structures */

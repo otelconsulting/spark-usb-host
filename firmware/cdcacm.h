@@ -20,7 +20,7 @@ e-mail   :  support@circuitsathome.com
 #define ARDUINO_H
 #include "application.h"
 
-#include "Usb.h"
+#include "spark-usb-host.h"
 
 #define bmREQ_CDCOUT                    USB_SETUP_HOST_TO_DEVICE|USB_SETUP_TYPE_CLASS|USB_SETUP_RECIPIENT_INTERFACE
 #define bmREQ_CDCIN                     USB_SETUP_DEVICE_TO_HOST|USB_SETUP_TYPE_CLASS|USB_SETUP_RECIPIENT_INTERFACE

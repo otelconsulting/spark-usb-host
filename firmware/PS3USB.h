@@ -18,7 +18,7 @@
 #ifndef _ps3usb_h_
 #define _ps3usb_h_
 
-#include "Usb.h"
+#include "spark-usb-host.h"
 #include "PS3Enums.h"
 
 /* PS3 data taken from descriptors */

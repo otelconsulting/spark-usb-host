@@ -18,7 +18,7 @@ e-mail   :  support@circuitsathome.com
 /* derived from Konstantin Chizhov's AVR port templates */
 
 #if !defined(_usb_h_) || defined(_avrpins_h_)
-#error "Never include avrpins.h directly; include Usb.h instead"
+#error "Never include avrpins.h directly; include spark-usb-host.h instead"
 #else
 #define _avrpins_h_
 

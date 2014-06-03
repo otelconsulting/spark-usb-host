@@ -16,7 +16,7 @@ e-mail   :  support@circuitsathome.com
  */
 
 #if !defined(_usb_h_) || defined(MACROS_H)
-#error "Never include macros.h directly; include Usb.h instead"
+#error "Never include macros.h directly; include spark-usb-host.h instead"
 #else
 #define	MACROS_H
 

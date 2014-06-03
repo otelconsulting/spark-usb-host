@@ -17,7 +17,7 @@ e-mail   :  support@circuitsathome.com
 #if !defined( __HIDUSAGESTR_H__)
 #define  __HIDUSAGESTR_H__
 
-#include "Usb.h"
+#include "spark-usb-host.h"
 
 const char pstrSpace [] PROGMEM = " ";
 const char pstrCRLF [] PROGMEM = "\r\n";

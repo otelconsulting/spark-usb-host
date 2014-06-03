@@ -20,7 +20,7 @@ e-mail   :  support@circuitsathome.com
 #define ARDUINO_H
 #include "application.h"
 
-#include "Usb.h"
+#include "spark-usb-host.h"
 
 #define USB_DESCRIPTOR_HUB			0x09 // Hub descriptor type
 

@@ -18,7 +18,7 @@
 #ifndef _xboxold_h_
 #define _xboxold_h_
 
-#include "Usb.h"
+#include "spark-usb-host.h"
 #include "controllerEnums.h"
 
 /* Data Xbox taken from descriptors */

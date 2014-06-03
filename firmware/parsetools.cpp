@@ -14,7 +14,7 @@ Circuits At Home, LTD
 Web      :  http://www.circuitsathome.com
 e-mail   :  support@circuitsathome.com
  */
-#include "Usb.h"
+#include "spark-usb-host.h"
 
 bool MultiByteValueParser::Parse(uint8_t **pp, uint16_t *pcntdn) {
         if(!pBuf) {

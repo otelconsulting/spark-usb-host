@@ -15,7 +15,7 @@ Web      :  http://www.circuitsathome.com
 e-mail   :  support@circuitsathome.com
  */
 #if !defined(_usb_h_) || defined(_max3421e_h_)
-#error "Never include max3421e.h directly; include Usb.h instead"
+#error "Never include max3421e.h directly; include spark-usb-host.h instead"
 #else
 
 #define _max3421e_h_

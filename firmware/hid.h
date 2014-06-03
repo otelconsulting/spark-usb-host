@@ -17,7 +17,7 @@ e-mail   :  support@circuitsathome.com
 #if !defined(__HID_H__)
 #define __HID_H__
 
-#include "Usb.h"
+#include "spark-usb-host.h"
 #include "hidusagestr.h"
 
 #define MAX_REPORT_PARSERS			2

@@ -21,7 +21,7 @@ e-mail   :  support@circuitsathome.com
 #ifndef _Max_LCD_h_
 #define _Max_LCD_h_
 
-#include "Usb.h"
+#include "spark-usb-host.h"
 #include "Print.h"
 
 // commands

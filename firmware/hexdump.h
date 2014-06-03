@@ -15,7 +15,7 @@ Web      :  http://www.circuitsathome.com
 e-mail   :  support@circuitsathome.com
  */
 #if !defined(_usb_h_) || defined(__HEXDUMP_H__)
-#error "Never include hexdump.h directly; include Usb.h instead"
+#error "Never include hexdump.h directly; include spark-usb-host.h instead"
 #else
 #define __HEXDUMP_H__
 

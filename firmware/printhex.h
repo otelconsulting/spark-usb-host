@@ -16,7 +16,7 @@ e-mail   :  support@circuitsathome.com
  */
 
 #if !defined(_usb_h_) || defined(__PRINTHEX_H__)
-#error "Never include printhex.h directly; include Usb.h instead"
+#error "Never include printhex.h directly; include spark-usb-host.h instead"
 #else
 #define __PRINTHEX_H__
 
