@@ -17,6 +17,9 @@ e-mail   :  support@circuitsathome.com
 #if !defined(__CDCACM_H__)
 #define __CDCACM_H__
 
+#define ARDUINO_H
+#include "application.h"
+
 #include "Usb.h"
 
 #define bmREQ_CDCOUT                    USB_SETUP_HOST_TO_DEVICE|USB_SETUP_TYPE_CLASS|USB_SETUP_RECIPIENT_INTERFACE
