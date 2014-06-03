@@ -14,6 +14,8 @@ Circuits At Home, LTD
 Web      :  http://www.circuitsathome.com
 e-mail   :  support@circuitsathome.com
  */
+#define ARDUINO_H
+#include "application.h" 
 
 #include "spark-usb-host.h"
 // 0x80 is the default (i.e. trace) to turn off set this global to something lower.

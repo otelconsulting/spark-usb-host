@@ -14,6 +14,9 @@ Circuits At Home, LTD
 Web      :  http://www.circuitsathome.com
 e-mail   :  support@circuitsathome.com
  */
+#define ARDUINO_H
+#include "application.h"  
+ 
 #if !defined(_usb_h_) || defined(__SINK_PARSER_H__)
 #error "Never include hexdump.h directly; include spark-usb-host.h instead"
 #else

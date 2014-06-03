@@ -14,6 +14,8 @@
  Web      :  http://www.tkjelectronics.com
  e-mail   :  kristianl@tkjelectronics.com
  */
+#define ARDUINO_H
+#include "application.h" 
 
 #include "SPP.h"
 // To enable serial debugging see "settings.h"

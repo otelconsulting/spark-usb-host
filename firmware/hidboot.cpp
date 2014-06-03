@@ -14,6 +14,9 @@ Circuits At Home, LTD
 Web      :  http://www.circuitsathome.com
 e-mail   :  support@circuitsathome.com
  */
+#define ARDUINO_H
+#include "application.h" 
+
 #include "hidboot.h"
 
 void MouseReportParser::Parse(HID *hid, bool is_rpt_id, uint8_t len, uint8_t *buf) {

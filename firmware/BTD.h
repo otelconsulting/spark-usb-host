@@ -14,6 +14,8 @@
  Web      :  http://www.tkjelectronics.com
  e-mail   :  kristianl@tkjelectronics.com
  */
+#define ARDUINO_H
+#include "application.h" 
 
 #ifndef _btd_h_
 #define _btd_h_

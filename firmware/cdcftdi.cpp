@@ -14,6 +14,9 @@ Circuits At Home, LTD
 Web      :  http://www.circuitsathome.com
 e-mail   :  support@circuitsathome.com
  */
+#define ARDUINO_H
+#include "application.h"  
+
 #include "cdcftdi.h"
 
 const uint8_t FTDI::epDataInIndex = 1;

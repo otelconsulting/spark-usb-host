@@ -14,6 +14,8 @@
  Web      :  http://www.tkjelectronics.com
  e-mail   :  kristianl@tkjelectronics.com
  */
+#define ARDUINO_H
+#include "application.h" 
 
 #ifndef _spp_h_
 #define _spp_h_

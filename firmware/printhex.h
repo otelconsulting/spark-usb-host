@@ -14,6 +14,8 @@ Circuits At Home, LTD
 Web      :  http://www.circuitsathome.com
 e-mail   :  support@circuitsathome.com
  */
+#define ARDUINO_H
+#include "application.h" 
 
 #if !defined(_usb_h_) || defined(__PRINTHEX_H__)
 #error "Never include printhex.h directly; include spark-usb-host.h instead"

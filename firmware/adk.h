@@ -15,8 +15,10 @@ Web      :  http://www.circuitsathome.com
 e-mail   :  support@circuitsathome.com
  */
 
-/* Google ADK interface support header */
+#define ARDUINO_H
+#include "application.h" 
 
+/* Google ADK interface support header */
 #if !defined(_ADK_H_)
 #define _ADK_H_
 

@@ -16,6 +16,8 @@ e-mail   :  support@circuitsathome.com
  */
 /* MAX3421E-based USB Host Library header file */
 
+#define ARDUINO_H
+#include "application.h" 
 
 #if !defined(_usb_h_) || defined(_USBHOST_H_)
 #error "Never include usbhost.h directly; include spark-usb-host.h instead"

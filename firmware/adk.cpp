@@ -16,6 +16,9 @@ e-mail   :  support@circuitsathome.com
  */
 
 /* Google ADK interface */
+#define ARDUINO_H
+#include "application.h" 
+
 
 #include "adk.h"
 

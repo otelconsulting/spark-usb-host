@@ -15,6 +15,8 @@ Web      :  http://www.circuitsathome.com
 e-mail   :  support@circuitsathome.com
  */
 /* USB functions */
+#define ARDUINO_H
+#include "application.h" 
 
 #include "Usb.h"
 

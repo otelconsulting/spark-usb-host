@@ -14,6 +14,8 @@
  Web      :  http://www.tkjelectronics.com
  e-mail   :  kristianl@tkjelectronics.com
  */
+#define ARDUINO_H
+#include "application.h" 
 
 #ifndef _controllerenums_h
 #define _controllerenums_h

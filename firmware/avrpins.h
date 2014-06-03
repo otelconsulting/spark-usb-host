@@ -15,6 +15,9 @@ Web      :  http://www.circuitsathome.com
 e-mail   :  support@circuitsathome.com
  */
 
+#define ARDUINO_H
+#include "application.h" 
+
 /* derived from Konstantin Chizhov's AVR port templates */
 
 #if !defined(_usb_h_) || defined(_avrpins_h_)

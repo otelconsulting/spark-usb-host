@@ -15,6 +15,9 @@ Web      :  http://www.circuitsathome.com
 e-mail   :  support@circuitsathome.com
  */
 
+#define ARDUINO_H
+#include "application.h" 
+
 #ifndef USB_HOST_SHIELD_SETTINGS_H
 #define USB_HOST_SHIELD_SETTINGS_H
 #include "macros.h"

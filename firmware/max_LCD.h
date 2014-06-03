@@ -17,6 +17,8 @@ e-mail   :  support@circuitsathome.com
 //HD44780 compatible LCD display via MAX3421E GPOUT support header
 //pinout: D[4-7] -> GPOUT[4-7], RS-> GPOUT[2], E ->GPOUT[3]
 //
+#define ARDUINO_H
+#include "application.h" 
 
 #ifndef _Max_LCD_h_
 #define _Max_LCD_h_
